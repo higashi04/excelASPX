@@ -1,0 +1,34 @@
+﻿#dataMain {
+    width: 90vw !important;
+}
+
+#btnsBusqueda {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#btnsBusqueda > button {
+    font-size: 1.2rem;
+}
+
+.notSearched{
+    color: #0d6efd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.notFound {
+    color: #fd0d0d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#dataTable {
+    width: 100vw;
+}
